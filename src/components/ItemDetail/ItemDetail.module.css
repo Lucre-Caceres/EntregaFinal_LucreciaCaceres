@@ -1,0 +1,35 @@
+.itemContainer{
+display: flex;
+justify-content: column;
+margin: 100px;
+}
+.itemImage{
+height: 200px;
+width: 200px;
+}
+.itemContent{
+text-align:justify;
+margin: auto;
+
+}
+.itemTitle{
+
+font-weight: bold;
+}
+.itemDescription{
+font-size: small;
+}
+.itemPrice{
+font-weight: bold;
+}
+
+.finishBuying{
+    background-color: #526D82;
+    color: #fff;
+    height: 3rem;
+    width: 10rem;
+    display: inline;
+    justify-content: center;
+    align-content: center;
+
+}

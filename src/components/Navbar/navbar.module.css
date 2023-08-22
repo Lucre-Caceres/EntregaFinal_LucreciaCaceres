@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    color: beige;
+}
+ul{
+   list-style: none; 
+}
+.contenedor {
+    background-color: #526D82;
+    color: #E1ECC8;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 12 rem;
+   
+    
+}
+.brand{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: "Montserrat Semibold 900";
+    margin-left: 10px;
+    
+}
+.brand:hover{
+    color: #9DB2BF;
+}
+.list{
+    color: beige;
+    display: inline;
+    justify-content: row;
+    font-size: 1rem;
+    padding-left: 15rem;
+}
+.list:hover{
+text-decoration: underline;    
+
+}
+
+.categoryContainer{
+    display: flex;
+    justify-content: row;
+}
+.categoryList{
+    display: flex;
+    width: 100%;
+    padding: 55px;
+}
+.categoryList:hover{
+    text-decoration: underline;
+}
